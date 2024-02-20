@@ -8,4 +8,4 @@ daca x este divizibil cu y.
 
 “indivizibil”.
 */
-CheckDivisible(ReadNumbers());
+ShowDivisible(CheckDivisible(ReadNumbers()));

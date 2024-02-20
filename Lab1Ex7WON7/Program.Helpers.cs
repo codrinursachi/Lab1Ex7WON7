@@ -13,11 +13,16 @@
         }
         return numere;
     }
-    static void CheckDivisible((int,int) numere)
+    static string CheckDivisible((int, int) numere)
     {
         if (numere.Item1 % numere.Item2 == 0)
-            Console.WriteLine("divizibil");
+            return "divizibil";
         else
-            Console.WriteLine("indivizibil");
+            return "indivizibil";
+    }
+        
+    static void ShowDivisible(string divisible)
+    {
+        Console.WriteLine(divisible);
     }
 }
